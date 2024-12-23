@@ -21,7 +21,7 @@ submissionBtn.addEventListener("click", function () {
 
 
 function validateInput(event) {
-    const invalidCharacters = ["e", "E", "-", "0", "+"];
+    const invalidCharacters = ["e", "E", "-", "+"];
     if (invalidCharacters.includes(event.key)) {
         event.preventDefault();
     }
